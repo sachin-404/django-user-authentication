@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="col-md-6 offset-md-3">
+    <br>
+    <h1>You have successfully Logged In!!</h1>
+    <br>
+    <a class="btn btn-danger" href="{% url 'logout' %}">Logout</a>
+</div>
+{% endblock %}
